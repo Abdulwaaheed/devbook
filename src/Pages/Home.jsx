@@ -1,6 +1,8 @@
 import HomebagImg from "../assets/img/home__bagImg.png";
 import HomeImg from "../assets/img/home__img.png";
 import HomeImgTwo from "../assets/img/home__img2.svg";
+import Books from "../Container/Header/books/books";
+
 const Home = () => {
   return (
     <div>
@@ -83,6 +85,15 @@ const Home = () => {
       </div>
       <div className="home__wrap">
         <img src={HomeImgTwo} alt="" />
+        <div className="home__content">
+          <p>Temuriylar davri </p>
+          <p>Jadid adabiyoti </p>
+          <p>Sovet davri </p>
+          <p>Mustaqillik davri</p>
+        </div>
+        <div className="book__block">
+          <Books/>
+        </div>
       </div>
     </div>
   );

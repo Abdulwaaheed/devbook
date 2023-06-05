@@ -1,6 +1,6 @@
 import "./assets/style/main.css";
 import { Routes, Route } from "react-router-dom";
-import { Home, Nasr, Nazm, Forum, Maqolar } from "./Pages";
+import { Home, Nasr, Nazm, Forum, Maqolar,Singin } from "./Pages";
 import Header from "./Container/Header/Header";
 
 function App() {
